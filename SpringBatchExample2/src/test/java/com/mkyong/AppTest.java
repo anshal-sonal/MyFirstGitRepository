@@ -26,7 +26,7 @@ public class AppTest {
     @Test
     public void launchJob() throws Exception {
 
-        //JobExecution jobExecution = jobLauncherTestUtils.launchJob();
+        ////JobExecution jobExecution = jobLauncherTestUtils.launchJob();
         
         JobExecution jobExecution = jobLauncherTestUtils.launchStep("step1");
         
